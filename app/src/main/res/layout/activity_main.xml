@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     tools:context="com.alphabet.alphabetgrid.MainActivity">
+
+
     <TextView
         android:text="Learn the Alphabet"
         android:layout_width="wrap_content"
@@ -15,9 +17,9 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textSize="30sp" />
+
     <GridView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:columnWidth="50sp"
         android:numColumns="auto_fit"
         android:stretchMode="spacingWidthUniform"
@@ -28,5 +30,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="40sp" />
+        android:layout_marginTop="40sp"
+        android:layout_height="match_parent" />
 </RelativeLayout>
